@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+
+<resultset statement="SELECT cod_articulo, nombre, precio_u, stock, licencia FROM ARTICULO ORDER BY cod_articulo
+" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <row>
+	<field name="cod_articulo">ART001</field>
+	<field name="nombre">Switch Cisco C9200</field>
+	<field name="precio_u">1850.00</field>
+	<field name="stock">4</field>
+	<field name="licencia">OEM</field>
+  </row>
+
+  <row>
+	<field name="cod_articulo">ART002</field>
+	<field name="nombre">Router Cisco ISR 1100</field>
+	<field name="precio_u">1250.00</field>
+	<field name="stock">3</field>
+	<field name="licencia">OEM</field>
+  </row>
+
+  <row>
+	<field name="cod_articulo">ART003</field>
+	<field name="nombre">SSD HPE 1.92TB</field>
+	<field name="precio_u">549.99</field>
+	<field name="stock">10</field>
+	<field name="licencia">Libre</field>
+  </row>
+
+  <row>
+	<field name="cod_articulo">ART004</field>
+	<field name="nombre">RAM HPE 32GB DDR4</field>
+	<field name="precio_u">349.00</field>
+	<field name="stock">8</field>
+	<field name="licencia">Libre</field>
+  </row>
+
+  <row>
+	<field name="cod_articulo">ART005</field>
+	<field name="nombre">Servidor HPE ProLiant</field>
+	<field name="precio_u">4200.00</field>
+	<field name="stock">2</field>
+	<field name="licencia">OEM</field>
+  </row>
+
+  <row>
+	<field name="cod_articulo">ART006</field>
+	<field name="nombre">Workstation Dell Precision</field>
+	<field name="precio_u">2800.00</field>
+	<field name="stock">3</field>
+	<field name="licencia">Retail</field>
+  </row>
+
+  <row>
+	<field name="cod_articulo">ART007</field>
+	<field name="nombre">Impresora laser Dell</field>
+	<field name="precio_u">420.00</field>
+	<field name="stock">5</field>
+	<field name="licencia">OEM</field>
+  </row>
+
+  <row>
+	<field name="cod_articulo">ART008</field>
+	<field name="nombre">Monitor Dell 27 4K</field>
+	<field name="precio_u">680.00</field>
+	<field name="stock">6</field>
+	<field name="licencia">Volumen</field>
+  </row>
+</resultset>
